@@ -1,0 +1,43 @@
+.filter-box-container {
+  border: 1px solid;
+  min-height: 95vh;
+
+}
+
+
+.filter-box-title {
+  font-size: 24px;
+}
+
+.filter-box-clear-button {
+  margin-top: 8px;
+}
+
+
+
+.filter-box-run-report-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .filter-box-run-report-button {
+    min-width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -10%;
+  }
+}
+
+.dashboard-container {
+  min-height: 100vh;
+
+}
+
+.clear-button {
+  color: black;
+  text-transform: none;
+}
